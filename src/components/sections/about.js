@@ -135,22 +135,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Melvin and I'm a Toronto-based Entrepreneur, Stock Trader, and Software Developer.
+              Hello! My name is Melvin and I'm a Toronto-based Entrepreneur, Stock Trader, and
+              Software Developer.
             </p>
 
             <p>
-              Currently my main focus is building Making Commerce Better for Everyone
-              at <a href="https://shopify.com/">Shopify</a>.
+              Currently my main focus is building Making Commerce Better for Everyone at{' '}
+              <a href="https://shopify.com/">Shopify</a>.
             </p>
 
-            <p>
+            {/* <p>
               I also recently{' '}
-              <a href="#">
+              <a href="">
                 launched a course
               </a>{' '}
               that covers everything you need to build ___________________________ using Node
               &amp; React.
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>

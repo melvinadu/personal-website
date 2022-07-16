@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import useScrollBlock from '../../hooks/useScrollBlock';
 // import { email } from '@config';
 
 const StyledHeroSection = styled.section`
@@ -46,6 +47,10 @@ const StyledHeroSection = styled.section`
 `;
 
 const Hero = () => {
+  const [blockScroll, allowScroll] = useScrollBlock();
+  allowScroll();
+  blockScroll();
+
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
 
@@ -64,8 +69,15 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology
-        and data. Currently, I’m focused on Making Commerce Better for Everyone at{' '}
+        {/* Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology
+        and data.  */}
+        Hello! My name is Melvin and I'm a Toronto-based Entrepreneur, Stock Trader, and Software
+        Developer.
+        <br></br>
+        <br></br>I specialize in solving complex problems with technology and data.
+        <br></br>
+        <br></br>
+        Currently, I’m Making Commerce Better for Everyone at{' '}
         <a href="https://shopify.com/" target="_blank" rel="noreferrer">
           Shopify
         </a>
