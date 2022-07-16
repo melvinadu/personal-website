@@ -7,7 +7,7 @@ module.exports = {
       'Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology and data.',
     siteUrl: 'https://melvinadu.com', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder //TO-DO
-    twitterUsername: '@melvinadu',
+    twitterUsername: '@melvin_adu',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -63,23 +63,33 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Melvin Adu.</h2>;
-  const three = <h3 className="big-heading">I build and then scale things on the web.</h3>;
+  // const spanStyle=;
+
+  const one = <h2>Hi, my name is</h2>;
+  const two = (
+    <h2 className="big-heading">
+      <span style={{ color: '#64ffda' }}> Melvin Adu</span>.
+    </h2>
+  );
+  const three = (
+    <h3 className="big-heading">
+      I <span style={{ color: '#64ffda' }}> build </span> & scale on the web.
+    </h3>
+  );
   const four = (
     <>
       <p>
         {/* Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology
         and data.  */}
-        Hello! My name is Melvin and I'm a Toronto-based Entrepreneur, Stock Trader, and Software
-        Developer.
+        Hello! My name is Melvin and I'm a Toronto-based Entrepreneur, Software Developer & Stock
+        Trader.
         <br></br>
         <br></br>I specialize in solving complex problems with technology and data.
         <br></br>
         <br></br>
-        Currently, I’m Making Commerce Better for Everyone at{' '}
+        Currently, I’m Making Commerce Better for Everyone{' '}
         <a href="https://shopify.com/" target="_blank" rel="noreferrer">
-          Shopify
+          at Shopify
         </a>
         .
       </p>
