@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/melvinadu',
+      url: 'https://www.calendly.com/melvinadu',
     },
     {
       name: 'Twitter',
