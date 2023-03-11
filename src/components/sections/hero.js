@@ -73,7 +73,7 @@ const Hero = () => {
   );
   const three = (
       <h3 className="big-heading">
-        <span style={{ color: '#64ffda' }}>Building </span> things users love.
+        <span style={{ color: '#64ffda' }}>Building </span> things people love.
       </h3>
   );
   const four = (
@@ -81,10 +81,10 @@ const Hero = () => {
       <p>
         {/* Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology
         and data.  */}
-        Entrepreneur, Software Engineer & Equities Trader.
+        An Entrepreneur, Software Engineer & Equities Trader.
         <br></br>
         <br></br>
-        Currently, I’m Making Commerce Better for Everyone{' '}
+        Currently, Making Commerce Better for Everyone{' '}
         <a href="https://shopify.com/" target="_blank" rel="noreferrer">
           at Shopify
         </a>
