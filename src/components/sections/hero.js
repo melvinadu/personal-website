@@ -84,7 +84,7 @@ const Hero = () => {
         An Entrepreneur, Software Engineer & Equities Trader.
         <br></br>
         <br></br>
-        Currently, Making Commerce Better for Everyone{' '}
+        Currently, I'm Making Commerce Better for Everyone{' '}
         <a href="https://shopify.com/" target="_blank" rel="noreferrer">
           at Shopify
         </a>
