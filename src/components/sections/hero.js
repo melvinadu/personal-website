@@ -73,7 +73,7 @@ const Hero = () => {
   );
   const three = (
     <h3 className="big-heading">
-      <span style={{ color: '#64ffda' }}> Build </span> first. Scale later.
+      <span style={{ color: '#64ffda' }}>Building </span> things people want. 
     </h3>
   );
   const four = (
