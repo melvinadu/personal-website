@@ -79,8 +79,6 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        {/* Melvin Adu is an Entrepreneur who specializes in solving complex problems with technology
-        and data.  */}
         An Entrepreneur, Software Engineer & Equities Trader.
         <br></br>
         <br></br>
